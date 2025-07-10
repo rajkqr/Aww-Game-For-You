@@ -145,7 +145,7 @@
                 <div id="stiker1" class="scale0 stiker">
                     <img src="./assets/pusn.gif" />
                 </div>
-                <h1 id="teks1" class="scale0 quicksand" style="font-size: 22px;">Hellooo You 🫢<br><br> >>>></h1>
+                <h1 id="teks1" class="scale0 quicksand" style="font-size: 22px;">Hellooo maam 🫢<br><br> >>>></h1>
             </div>
 
             <div class="swiper-slide">
@@ -187,10 +187,10 @@
                     <img id="stikerAkhir100" class="sembunyi" src="./assets/emawh.gif" />
                 </div>
                 <div id="scroll-container" class="blocktext scale0 abs">
-                    <h1 id="teks4" class="quicksand" style="font-size: 17px;font-weight:400"><b style="font-size:19px;font-weight:700;">Wow, you're so smart! 😆</b><br><br><br>Wait a moment 😋</h1>
+                    <h1 id="teks4" class="quicksand" style="font-size: 17px;font-weight:400"><b style="font-size:19px;font-weight:700;">Wow, you're sooo smart! 😆</b><br><br><br>Wait a moment 😋</h1>
                     <h1 id="teksLoop">I Love You</h1>
                     <h1 id="emojiTeksLoop">❤️</h1>
-                    <h1 id="teksAkhiran"><b>Love you my dearest</b>,<br>the sweetest, the funniest, the cutest<br><b>stay healthy, my love 🫣💐</b></h1>
+                    <h1 id="teksAkhiran"><b>Aaj mann bhar apna favourite cheez karna😄(badminton, k-drama...)</b>,<br>Aaj padhai choddskti hai...<br><b>kal se waise bhi bahut padhogi tm🙂</b></h1>
                 </div>
             </div>
             
@@ -266,7 +266,7 @@ function animateteksnim() {
             if (percent < 9999) {
                 percent += Math.floor(Math.random() * (100 - 10 + 1)) + 10;
                 const randomEmoji = loveEmojis[Math.floor(Math.random() * loveEmojis.length)];
-                teksLove.innerHTML = `<b>I Love You ${percent}% ${randomEmoji}</b>`;
+                teksLove.innerHTML = `<b>HAPPY BIRTHDAY MAAM🎉🥳 ${percent}% ${randomEmoji}</b>`;
             } else {
                 clearInterval(intervalId);
                 percent = 9999;
@@ -332,8 +332,8 @@ function katanimasi2(){
 function katanimasi3(){
     teks4.innerHTML = "";
     let kangenPercentage = 10; // Start from 10%
-    var vteksLoop = "I Love You";
-    var vemojiTeksLoop = "❤️";
+    var vteksLoop = "HAPPY BIRTHDAY MAAM";
+    var vemojiTeksLoop = "🎉🥳";
     
     new TypeIt("#teks4", {
         strings: Array.from({length: 10}, (_, i) => `${vteksLoop} ${kangenPercentage + i * 10}% ${vemojiTeksLoop}`),
