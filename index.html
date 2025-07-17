@@ -145,14 +145,14 @@
                 <div id="stiker1" class="scale0 stiker">
                     <img src="./assets/pusn.gif" />
                 </div>
-                <h1 id="teks1" class="scale0 quicksand" style="font-size: 22px;">Hellooo You 🫢<br><br> >>>></h1>
+                <h1 id="teks1" class="scale0 quicksand" style="font-size: 22px;">Hellooo maam 🫢<br><br> >>>></h1>
             </div>
 
             <div class="swiper-slide">
                 <div id="stiker2" class="scale0 stiker">
                     <img src="./assets/weee.gif" />
                 </div>
-                <h1 id="teks2" class="scale0 quicksand" style="font-size: 18px;">I have something<br>for youuu 😝<br><br> >>>></h1>
+                <h1 id="teks2" class="scale0 quicksand" style="font-size: 18px;">TRY THIS GAME...<br>Subway Surfers kal khelna😙😝<br><br> >>>></h1>
             </div>
 
             <div class="swiper-slide">
@@ -187,10 +187,10 @@
                     <img id="stikerAkhir100" class="sembunyi" src="./assets/emawh.gif" />
                 </div>
                 <div id="scroll-container" class="blocktext scale0 abs">
-                    <h1 id="teks4" class="quicksand" style="font-size: 17px;font-weight:400"><b style="font-size:19px;font-weight:700;">Wow, you're so smart! 😆</b><br><br><br>Wait a moment 😋</h1>
-                    <h1 id="teksLoop">I Love You</h1>
-                    <h1 id="emojiTeksLoop">❤️</h1>
-                    <h1 id="teksAkhiran"><b>Love you my dearest</b>,<br>the sweetest, the funniest, the cutest<br><b>stay healthy, my love 🫣💐</b></h1>
+                    <h1 id="teks4" class="quicksand" style="font-size: 17px;font-weight:400"><b style="font-size:19px;font-weight:700;">Tmhari memory to sharp kar di maine...😎</b><br><br><br>Ab badaam khane ka jarurat nhi padega tmhe😜😋...</h1>
+                    <h1 id="teksLoop">HAPPY BIRTHDAY Ma'am</h1>
+                    <h1 id="emojiTeksLoop">❤️🥳</h1>
+                    <h1 id="teksAkhiran"><b>Aaj mann bhar apna favourite cheez karna😄</b>,<br>Even aaj padhai chodd skti ho...<br><b>Waise bhi kal se pura mann se padhogi tm😊😇<br><b>𝐀𝐚𝐜𝐡𝐚 𝐚𝐚𝐩𝐤𝐨 𝐤𝐢𝐬𝐬 𝐧𝐚𝐚𝐦 𝐬𝐞 𝐛𝐮𝐥𝐚𝐲𝐞, 𝐢𝐬𝐤𝐚 𝐚𝐧𝐬𝐰𝐞𝐫 𝐭𝐨 𝐝𝐢𝐲𝐚 𝐧𝐡𝐢 𝐭𝐦𝐧𝐞 ??🤔<br><b>And btw duniya ki sabse garam cheez, tmhara dimaag to nhi hai...😗<br><b>𝐁𝐘𝐄- 𝐁𝐘𝐄</b></h1>
                 </div>
             </div>
             
@@ -227,7 +227,7 @@ var swiper = new Swiper(".mySwiper", {
     navigation: {nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev",},
 });
     
-initeks = `<b style="font-size:19px;font-weight:700;">Wow, you're so smart! 😆</b><br><br><br>Wait a moment 😋`;
+initeks = `<b style="font-size:19px;font-weight:700;">Tmhari memory to sharp kar di maine...😎</b><br><br><br>Ab badaam khane ka jarurat nhi padega tmhe😜😋...`;
 teks4.innerHTML = "";
 function katanimasi(){
         teks4.innerHTML = "";
@@ -332,8 +332,8 @@ function katanimasi2(){
 function katanimasi3(){
     teks4.innerHTML = "";
     let kangenPercentage = 10; // Start from 10%
-    var vteksLoop = "I Love You";
-    var vemojiTeksLoop = "❤️";
+    var vteksLoop = "HAPPY BIRTHDAY Ma'am";
+    var vemojiTeksLoop = "❤️🥳";
     
     new TypeIt("#teks4", {
         strings: Array.from({length: 10}, (_, i) => `${vteksLoop} ${kangenPercentage + i * 10}% ${vemojiTeksLoop}`),
@@ -352,7 +352,7 @@ function katanimasi3(){
 }
 
 function katanimasi4(){
-	var initeksAkhir = `<b>Love you my dearest</b>,<br>the sweetest, the funniest, the cutest<br><b>stay healthy, my love 🫣💐</b>`;
+	var initeksAkhir = `<b>Aaj mann bhar apna favourite cheez karna😄</b>,<br>Even aaj padhai chodd skti ho...<br><b>Waise bhi kal se pura mann se padhogi tm😊😇<br><b>𝐀𝐚𝐜𝐡𝐚 𝐚𝐚𝐩𝐤𝐨 𝐤𝐢𝐬𝐬 𝐧𝐚𝐚𝐦 𝐬𝐞 𝐛𝐮𝐥𝐚𝐲𝐞, 𝐢𝐬𝐤𝐚 𝐚𝐧𝐬𝐰𝐞𝐫 𝐭𝐨 𝐝𝐢𝐲𝐚 𝐧𝐡𝐢 𝐭𝐦𝐧𝐞 ??🤔<br><b>And btw duniya ki sabse garam cheez, tmhara dimaag to nhi hai...😗<br><b>𝐁𝐘𝐄- 𝐁𝐘𝐄</b>`;
 	new TypeIt("#teksLove", {
     strings: ["" + initeksAkhir], startDelay: 1, speed: 25, cursor: true,
     afterComplete: function(){
